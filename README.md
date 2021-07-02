@@ -40,3 +40,6 @@ CSS 기초적인 개념들 정리
     ![image](https://user-images.githubusercontent.com/26318691/124336979-4d87d380-dbdb-11eb-92d2-76dbbc7c7f7c.png)
   ##### Clearfix
     ![image](https://user-images.githubusercontent.com/26318691/124337164-2b428580-dbdc-11eb-9e92-e530d79764b2.png)
+    ![image](https://user-images.githubusercontent.com/26318691/124337246-92f8d080-dbdc-11eb-9d9b-13b4e2ba61a8.png) 
+    ![image](https://user-images.githubusercontent.com/26318691/124337284-b02d9f00-dbdc-11eb-86e5-ad0001534c24.png)
+
