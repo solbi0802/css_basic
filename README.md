@@ -9,7 +9,7 @@ CSS 기초적인 개념들 정리
   - content-box : width,height 설정시, content영역의 크기로 지정됨. 따라서 w,h 지정해도 의도한 크기대로 나오지 않을 가능성이 있음.
   -  border-box : 별도 계산 없이 설정한 width, height로 적용됨
 
-- Box Type
+- Box Type (=display)
   #### Block 
     ![image](https://user-images.githubusercontent.com/26318691/124144843-48d1fb00-dac7-11eb-8df3-0ebc76446001.png)
     - 키워드 : 길막, 면
@@ -30,3 +30,13 @@ CSS 기초적인 개념들 정리
 
   #### Inline Block
   - Blcok && Inline : Inline과 Block의 특성을 둘 다 가지고 있음 
+
+### Float
+- inlineBlock,block -> block 으로 바뀜
+- block의 특성인 width,height가 적용 되지 않고 자신의 content width,height만큼 자리를 차지하게 됨
+- float를 사용할 경우 레이아웃이 틀어지게 된다
+- 해결책 2가지 
+  ##### overflow:hidden;
+    ![image](https://user-images.githubusercontent.com/26318691/124336979-4d87d380-dbdb-11eb-92d2-76dbbc7c7f7c.png)
+  ##### Clearfix
+    ![image](https://user-images.githubusercontent.com/26318691/124337164-2b428580-dbdc-11eb-9e92-e530d79764b2.png)
