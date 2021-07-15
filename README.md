@@ -44,4 +44,12 @@ CSS 기초적인 개념들 정리
     ![image](https://user-images.githubusercontent.com/26318691/124337284-b02d9f00-dbdc-11eb-86e5-ad0001534c24.png)
     ![image](https://user-images.githubusercontent.com/26318691/124337377-3a760300-dbdd-11eb-90ba-13c9cf53b52c.png)
 
+### Position (Type에 따른 기준점)
 
+- static : 모든 요소의 기본값, 가장 일반적인 상태
+- relative : 이동의 기준점은 자기 자신이 본래 있던 자리, 다른 요소들에게 영향을 끼치지 않음 
+- absolute : float특성과 비슷, 자신의 조상 요소 중에 position:static이 아닌 요소를 기준으로 잡음
+- fixed : viewpoint 사이즈를 기준으로 위치 
+- sticky
+
+- z-index : 수직방향/포지션된 요소들의 수직방향 레벨 위치를 알려줌
