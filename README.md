@@ -79,6 +79,10 @@ CSS 기초적인 개념들 정리
 
 
 3. 무조건 한줄안에 다 정렬 인지 ?  (flex-wrap)
+4. 
   ![image](https://user-images.githubusercontent.com/26318691/126857447-de95b120-635a-4c6a-a271-a080ef8928b7.png)
+  
+  ![image](https://user-images.githubusercontent.com/26318691/126857563-1fc74f8d-e817-4f78-9c9d-a5f49781bbd3.png)
+
   ![image](https://user-images.githubusercontent.com/26318691/126857521-e7925c49-3887-4a6c-89ab-3371de2fc915.png)
 
