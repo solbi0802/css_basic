@@ -53,3 +53,32 @@ CSS 기초적인 개념들 정리
 - sticky
 
 - z-index : 수직방향/포지션된 요소들의 수직방향 레벨 위치를 알려줌
+
+### Flexbox (정렬)
+- 단계
+1. Flexbox 선언  (display)
+![image](https://user-images.githubusercontent.com/26318691/126856690-a3cbc903-d11a-4d1c-9406-9df04514a60c.png)
+![image](https://user-images.githubusercontent.com/26318691/126856713-d0eaedf0-5c75-4118-b87e-8a5b0f297eca.png)
+
+2. 가로 or 세로 정렬인지 명시 (flex-direction)
+![image](https://user-images.githubusercontent.com/26318691/126856721-58f0be9c-294b-4fb2-a6e1-bd97c829fa27.png)
+
+![image](https://user-images.githubusercontent.com/26318691/126857181-abafb832-df5a-4b90-a2af-f580841f8f18.png)
+
+- flex-direction이 row 일 때 
+  ![image](https://user-images.githubusercontent.com/26318691/126857197-6f408578-59da-4e6e-bfba-9dcf85aada80.png)
+
+- flex-direction이 column 일 때 
+  ![image](https://user-images.githubusercontent.com/26318691/126857313-a0743cb2-5bae-47a9-9ef2-9d5caaf9a764.png)
+
+- flex-direction이 row-reverse 일 때
+  ![image](https://user-images.githubusercontent.com/26318691/126857437-02ed0f81-4da5-44db-9db0-06bbc0aa39c2.png)
+
+- flex-direction이 column-reverse 일 때 
+  ![image](https://user-images.githubusercontent.com/26318691/126857424-53add48a-f68f-4dd5-aa98-69052da6f2d2.png)
+
+
+3. 무조건 한줄안에 다 정렬 인지 ?  (flex-wrap)
+  ![image](https://user-images.githubusercontent.com/26318691/126857447-de95b120-635a-4c6a-a271-a080ef8928b7.png)
+  ![image](https://user-images.githubusercontent.com/26318691/126857521-e7925c49-3887-4a6c-89ab-3371de2fc915.png)
+
