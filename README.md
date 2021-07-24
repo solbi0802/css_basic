@@ -80,7 +80,7 @@ CSS 기초적인 개념들 정리
 
 3. 무조건 한줄안에 다 정렬 인지 ?  (flex-wrap)
 
-  ![image](https://user-images.githubusercontent.com/26318691/126857447-de95b120-635a-4c6a-a271-a080ef8928b7.png)
+    ![image](https://user-images.githubusercontent.com/26318691/126857447-de95b120-635a-4c6a-a271-a080ef8928b7.png)
   
   - no-wrap
   ![image](https://user-images.githubusercontent.com/26318691/126857563-1fc74f8d-e817-4f78-9c9d-a5f49781bbd3.png)
