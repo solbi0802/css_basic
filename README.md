@@ -88,3 +88,16 @@ CSS 기초적인 개념들 정리
   - wrap
   ![image](https://user-images.githubusercontent.com/26318691/126857521-e7925c49-3887-4a6c-89ab-3371de2fc915.png)
 
+#### props
+
+- Main axis 기준으로 정렬 : justify-content 
+- Cross axis 기준으로 정렬 : align-content or align-items 
+- space-between : 요소 사이의 간격 일정하게 띄우기
+- space-around : 앞, 뒤, 그리고 요소들 사이에도 모두 여유 공간을 두고 배치
+
+- align-content와 align-items 차이
+  align-items : 하나의 flex line에 흐르는 Cross axis를 기준으로 정렬함
+  align-content : 전체 Cross axis를 기준으로 정렬함\
+
+- order 
+원하는 순서대로 정렬
