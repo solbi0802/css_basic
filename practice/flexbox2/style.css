@@ -4,47 +4,52 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
   letter-spacing: -0.02em;
 }
 
-a {
-  font-size: 18px;
-  line-height: 20px;
-  color: #8492a6;
-  text-decoration: none;
+h1 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #1f2d3d;
+  line-height: 1.25;
 }
 
-.tab-menu {
-  padding-left: 0;
-  border-bottom: 1px solid #e5eaef;
-  list-style-type: none;
+strong {
+  font-size: 14px;
+  font-weight: 400;
+  color: #afb3b9;
+  line-height: 1.4285714286;
+}
+
+p {
+  font-size: 16px;
+  color: #79818b;
+  line-height: 1.5;
+}
+
+.card {
   display: flex;
-  /* 디폴트값은 주석처리 */
-  /* flex-direction: row; */
-  /* flex-wrap: nowrap; */
-  /* justify-self: flex-start; */
-  align-items: center;
+  /* 기본값이여서 주석처리 */
+  /* flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: flex-start; */
+  padding: 20px;
+  background-color: #fff;
 }
 
-.tab-menu-item {
-  margin-right: 16px;
+.card-user {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  margin-right: 20px;
 }
 
-.tab-menu-item.active {
-  border-bottom: 2px solid #2860e1;
+.card-content h1 {
+  margin-bottom: 4px;
 }
 
-.tab-menu-item.active a {
-  font-weight: 500;
-  color: #2860e1;
-}
-
-.tab-menu-item:last-child {
-  margin-right: 0;
-}
-
-.tab-menu-item a {
+.card-content strong {
   display: block;
-  padding: 16px 20px;
+  margin-bottom: 12px;
 }
