@@ -101,3 +101,8 @@ CSS 기초적인 개념들 정리
 
 - order 
 원하는 순서대로 정렬
+
+### Media Query
+![image](https://user-images.githubusercontent.com/26318691/127504115-3a71c8ca-f66f-4583-a114-a1df7b8fb97d.png)
+
+![image](https://user-images.githubusercontent.com/26318691/127504073-70190864-5e01-4765-a48e-5f339ebd1c30.png)
