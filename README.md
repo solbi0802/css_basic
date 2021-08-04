@@ -106,3 +106,26 @@ CSS 기초적인 개념들 정리
 ![image](https://user-images.githubusercontent.com/26318691/127504115-3a71c8ca-f66f-4583-a114-a1df7b8fb97d.png)
 
 ![image](https://user-images.githubusercontent.com/26318691/127504073-70190864-5e01-4765-a48e-5f339ebd1c30.png)
+
+
+### Typography 
+<img width="1393" alt="KakaoTalk_20210804_182602815" src="https://user-images.githubusercontent.com/26318691/128189566-9074f1fa-18c0-4b74-9f37-7bd3df9a048c.png">
+
+<img width="974" alt="KakaoTalk_20210804_182602815_02" src="https://user-images.githubusercontent.com/26318691/128189527-108b479e-92b9-4e82-9d5b-fc7afe410aaa.png">
+
+<img width="858" alt="KakaoTalk_20210804_182602815_01" src="https://user-images.githubusercontent.com/26318691/128189700-9434a850-7490-4b92-a2c6-7628b729af19.png">
+
+- font-size
+  단위 : px / em(equal to capital M)  실제로 적용된 사이즈 / rem  (root em) html에 적용된 폰트 사이즈
+
+- line-height
+  단위 : px / em(equal to capital M)  실제로 적용된 사이즈, 가장 많이 사용! / rem  (root em) html에 적용된 폰트 사이즈
+
+- letter-spacing : 자간
+  단위 : px / em
+
+- font-family 
+
+- font-weight : 폰트 굵기 
+
+-  color : 폰트 색상
