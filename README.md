@@ -129,3 +129,13 @@ CSS 기초적인 개념들 정리
 - font-weight : 폰트 굵기 
 
 -  color : 폰트 색상
+
+-  text-align : 텍스트 정렬 (left | center | right)
+
+-  text-indent : 들여쓰기할 때 사용
+
+- text-transform : 알파벳 대소문자 변형 (none | capitalize | uppercase | lowercase) 
+
+- text-decoration : 텍스트에 줄 긋기 (none | underline | line-through | overline)
+
+- font-style : 문자 기울기 (normal | italic | oblique) 
