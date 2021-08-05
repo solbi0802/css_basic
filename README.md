@@ -1,4 +1,4 @@
-# basicOfCSS
+# css_basic
 CSS 기초적인 개념들 정리
 
 ### Selector
