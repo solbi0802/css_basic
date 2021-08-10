@@ -139,3 +139,21 @@ CSS 기초적인 개념들 정리
 - text-decoration : 텍스트에 줄 긋기 (none | underline | line-through | overline)
 
 - font-style : 문자 기울기 (normal | italic | oblique) 
+
+
+### Background
+- background-color 
+  단위 : hex / rgb / rgba
+
+- background-image
+  url() 사용해서 파일 경로 or 이미지 주소 넣어줌
+
+- background-repeat 
+  repeat(default) / no-repeat
+
+- background-size 
+  - contain : 이미지가 잘리거나 찌그러지지 않는 한도 내에서 제일 크게 설정
+  - cover :  이미지가 잘리거나 찌그러지지 않는 한도 내에서 제일 크게 설정. 이미지의 가로세로비가 요소와 다르다면 이미지를 세로 또는 가로방향으로 잘라내어 빈 공간이 생기지 않도록 설정
+ 
+- background-position 
+   x축 y축 위치 명시
