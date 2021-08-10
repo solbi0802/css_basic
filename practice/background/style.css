@@ -24,3 +24,65 @@ body {
   border-radius: 6px;
 }
 
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.plus-badge {
+  display: inline-block;
+  background-color: #92174D;
+  color: #FFFFFF;
+  border-radius: 4px;
+  width: 48px;
+  height: 22px;
+  margin-right: 6px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.428571428571429;
+  padding: 1px 8px;
+  text-transform: uppercase;
+}
+
+.property-type span {
+  color: #7D858F;
+  font-size: 16px;
+  line-height: 1.25;
+}
+
+.property-rate {
+  font-size: 16px;
+  line-height: 1.25;
+}
+
+.property-rate strong {
+  color: #151B26;
+}
+
+.property-rate span {
+  color: #7D858F;
+  font-weight: 400;
+}
+
+.property-rate::before {
+  content: '';
+  position: relative;
+  top: 2px;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-image: url('./assets/icon-star.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+.card-title {
+  color: #151B26;
+  font-size: 20px;
+  line-height: 1.6;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
