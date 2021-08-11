@@ -10,18 +10,53 @@
 body {
   font-family: 'Poppins',sans-serif;
 }
+
+.sr-only {
+  position: absolute;
+  z-index: -100;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  opacity: 0;
+}
+
+.card {
+  width: 840px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 24px 24px;
+}
+
 .card-image {
+  position: relative;
   width: 300px;
   height: 200px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
   background-image: url(./assets/img-house.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 6px;
+  margin-right: 24px;
+}
+
+.card-image .like-button {
+  width: 36px;
+  height: 36px;
+  background-color: #FFFFFF;
+  background-image: url('./assets/icon-favorite.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 100px;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 12px;
+  left: 12px;
+}
+
+.card-content {
+  flex-grow: 1; 
 }
 
 .card-header {
@@ -85,4 +120,24 @@ body {
   line-height: 1.6;
   font-weight: 400;
   margin-bottom: 16px;
+}
+
+.property-detail {
+  color: #7D858F;
+  font-size: 14px;
+  line-height: 1.142857142857143;
+}
+
+.property-detail dd span::after {
+  content: '·';
+  margin: '0 8px';
+}
+
+.property-detail dd span:last-child::after {
+  content: '';
+  margin: 0;
+}
+
+.property-detail div:first-child {
+  margin-bottom: 8px;
 }
