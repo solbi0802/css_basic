@@ -157,3 +157,17 @@ CSS 기초적인 개념들 정리
  
 - background-position 
    x축 y축 위치 명시
+   
+### Transition
+  - property
+    css 속성 명시(font-size,..etc)
+
+  - duration
+    지속시간(ms/s)
+
+  - [timing-function]
+    변화 속도 지정
+    ease-in | ease-out | ease-in-out | cubic-bezier()
+
+  - [delay]
+    transition 지연 설정 
