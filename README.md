@@ -93,8 +93,14 @@
 
 - 단계
    1. Flexbox 선언  (display)
-     ![f1](https://user-images.githubusercontent.com/26318691/130985318-b1074032-eade-46f4-8284-cd7f9715aed6.png)
-
+   ```
+   .flexbox {
+     display: flex;
+       /* flex | inline-flex */
+   }
+   ```
+   
+  
    2. 가로 or 세로 정렬인지 명시 (flex-direction)
       ![image](https://user-images.githubusercontent.com/26318691/126856721-58f0be9c-294b-4fb2-a6e1-bd97c829fa27.png)
       ![image](https://user-images.githubusercontent.com/26318691/126857181-abafb832-df5a-4b90-a2af-f580841f8f18.png)
