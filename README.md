@@ -92,8 +92,8 @@
   : 정렬
 
 - 단계
-   
    1. Flexbox 선언  (display)
+     ![f1](https://user-images.githubusercontent.com/26318691/130985318-b1074032-eade-46f4-8284-cd7f9715aed6.png)
 
    2. 가로 or 세로 정렬인지 명시 (flex-direction)
       ![image](https://user-images.githubusercontent.com/26318691/126856721-58f0be9c-294b-4fb2-a6e1-bd97c829fa27.png)
@@ -110,7 +110,6 @@
 
       - flex-direction이 column-reverse 일 때 
         ![image](https://user-images.githubusercontent.com/26318691/126857424-53add48a-f68f-4dd5-aa98-69052da6f2d2.png)
-
 
    3. 무조건 한줄안에 다 정렬 인지?  (flex-wrap)
 
