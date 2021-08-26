@@ -90,7 +90,7 @@
 
 ### Flexbox
   : 정렬
-#### 단계
+- 단계
    1. Flexbox 선언  (display)
       ![image](https://user-images.githubusercontent.com/26318691/126856690-a3cbc903-d11a-4d1c-9406-9df04514a60c.png)
       ![image](https://user-images.githubusercontent.com/26318691/126856713-d0eaedf0-5c75-4118-b87e-8a5b0f297eca.png)
