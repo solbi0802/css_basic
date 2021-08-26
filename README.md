@@ -12,7 +12,7 @@
 
 - [Position](#position)
 
-- [Flexbox](#flexbox(정렬))
+- [Flexbox](#flexbox)
 
 - [Media Query](#media-query)
 
@@ -24,10 +24,12 @@
 
 - [Animation](#animation)
 
--------
+<hr>
 
 ### Selector
 - 우선순위 : ID > Class(Pseudo-class도 포함) > Type
+
+<hr>
 
 ### Box
 - box-sizing 
@@ -56,6 +58,8 @@
   #### Inline Block
   - Blcok && Inline : Inline과 Block의 특성을 둘 다 가지고 있음 
 
+<hr>
+
 ### Float
 - inlineBlock,block -> block 으로 바뀜
 - block의 특성인 width,height가 적용 되지 않고 자신의 content width,height만큼 자리를 차지하게 됨
@@ -69,6 +73,8 @@
     ![image](https://user-images.githubusercontent.com/26318691/124337284-b02d9f00-dbdc-11eb-86e5-ad0001534c24.png)
     ![image](https://user-images.githubusercontent.com/26318691/124337377-3a760300-dbdd-11eb-90ba-13c9cf53b52c.png)
 
+<hr>
+
 ### Position 
  : Type에 따른 기준점
 
@@ -80,59 +86,64 @@
 
 - z-index : 수직방향/포지션된 요소들의 수직방향 레벨 위치를 알려줌
 
-### Flexbox (정렬)
-  #### 단계
-    1. Flexbox 선언  (display)
-  ![image](https://user-images.githubusercontent.com/26318691/126856690-a3cbc903-d11a-4d1c-9406-9df04514a60c.png)
-  ![image](https://user-images.githubusercontent.com/26318691/126856713-d0eaedf0-5c75-4118-b87e-8a5b0f297eca.png)
+<hr>
 
-  2. 가로 or 세로 정렬인지 명시 (flex-direction)
-  ![image](https://user-images.githubusercontent.com/26318691/126856721-58f0be9c-294b-4fb2-a6e1-bd97c829fa27.png)
+### Flexbox
+  : 정렬
+#### 단계
+   1. Flexbox 선언  (display)
+      ![image](https://user-images.githubusercontent.com/26318691/126856690-a3cbc903-d11a-4d1c-9406-9df04514a60c.png)
+      ![image](https://user-images.githubusercontent.com/26318691/126856713-d0eaedf0-5c75-4118-b87e-8a5b0f297eca.png)
 
-  ![image](https://user-images.githubusercontent.com/26318691/126857181-abafb832-df5a-4b90-a2af-f580841f8f18.png)
+   2. 가로 or 세로 정렬인지 명시 (flex-direction)
+      ![image](https://user-images.githubusercontent.com/26318691/126856721-58f0be9c-294b-4fb2-a6e1-bd97c829fa27.png)
+      ![image](https://user-images.githubusercontent.com/26318691/126857181-abafb832-df5a-4b90-a2af-f580841f8f18.png)
 
-  - flex-direction이 row 일 때 
-    ![image](https://user-images.githubusercontent.com/26318691/126857197-6f408578-59da-4e6e-bfba-9dcf85aada80.png)
+      - flex-direction이 row 일 때 
+        ![image](https://user-images.githubusercontent.com/26318691/126857197-6f408578-59da-4e6e-bfba-9dcf85aada80.png)
 
-  - flex-direction이 column 일 때 
-   ![image](https://user-images.githubusercontent.com/26318691/126857313-a0743cb2-5bae-47a9-9ef2-9d5caaf9a764.png)
+      - flex-direction이 column 일 때 
+        ![image](https://user-images.githubusercontent.com/26318691/126857313-a0743cb2-5bae-47a9-9ef2-9d5caaf9a764.png)
 
-  - flex-direction이 row-reverse 일 때
-    ![image](https://user-images.githubusercontent.com/26318691/126857437-02ed0f81-4da5-44db-9db0-06bbc0aa39c2.png)
+      - flex-direction이 row-reverse 일 때
+        ![image](https://user-images.githubusercontent.com/26318691/126857437-02ed0f81-4da5-44db-9db0-06bbc0aa39c2.png)
 
-  - flex-direction이 column-reverse 일 때 
-   ![image](https://user-images.githubusercontent.com/26318691/126857424-53add48a-f68f-4dd5-aa98-69052da6f2d2.png)
+      - flex-direction이 column-reverse 일 때 
+        ![image](https://user-images.githubusercontent.com/26318691/126857424-53add48a-f68f-4dd5-aa98-69052da6f2d2.png)
 
 
-  3. 무조건 한줄안에 다 정렬 인지?  (flex-wrap)
+   3. 무조건 한줄안에 다 정렬 인지?  (flex-wrap)
 
       ![image](https://user-images.githubusercontent.com/26318691/126857447-de95b120-635a-4c6a-a271-a080ef8928b7.png)
   
-     - no-wrap
-      ![image](https://user-images.githubusercontent.com/26318691/126857563-1fc74f8d-e817-4f78-9c9d-a5f49781bbd3.png)
+      - no-wrap
+        ![image](https://user-images.githubusercontent.com/26318691/126857563-1fc74f8d-e817-4f78-9c9d-a5f49781bbd3.png)
 
       - wrap
-      ![image](https://user-images.githubusercontent.com/26318691/126857521-e7925c49-3887-4a6c-89ab-3371de2fc915.png)
+        ![image](https://user-images.githubusercontent.com/26318691/126857521-e7925c49-3887-4a6c-89ab-3371de2fc915.png)
 
-#### props
+  #### props
 
-- Main axis 기준으로 정렬 : justify-content 
-- Cross axis 기준으로 정렬 : align-content or align-items 
-- space-between : 요소 사이의 간격 일정하게 띄우기
-- space-around : 앞, 뒤, 그리고 요소들 사이에도 모두 여유 공간을 두고 배치
+  - Main axis 기준으로 정렬 : justify-content 
+  - Cross axis 기준으로 정렬 : align-content or align-items 
+  - space-between : 요소 사이의 간격 일정하게 띄우기
+  - space-around : 앞, 뒤, 그리고 요소들 사이에도 모두 여유 공간을 두고 배치
 
-- align-content와 align-items 차이
-  align-items : 하나의 flex line에 흐르는 Cross axis를 기준으로 정렬함
-  align-content : 전체 Cross axis를 기준으로 정렬함
+  - align-content와 align-items 차이
+    align-items : 하나의 flex line에 흐르는 Cross axis를 기준으로 정렬함
+    align-content : 전체 Cross axis를 기준으로 정렬함
 
-- order 
-원하는 순서대로 정렬
+  - order 
+  원하는 순서대로 정렬
+
+<hr>
 
 ### Media Query
 ![image](https://user-images.githubusercontent.com/26318691/127504115-3a71c8ca-f66f-4583-a114-a1df7b8fb97d.png)
 
 ![image](https://user-images.githubusercontent.com/26318691/127504073-70190864-5e01-4765-a48e-5f339ebd1c30.png)
 
+<hr>
 
 ### Typography 
 <img width="1393" alt="KakaoTalk_20210804_182602815" src="https://user-images.githubusercontent.com/26318691/128189566-9074f1fa-18c0-4b74-9f37-7bd3df9a048c.png">
@@ -166,6 +177,7 @@
 
 - font-style : 문자 기울기 (normal | italic | oblique) 
 
+<hr>
 
 ### Background
 - background-color 
@@ -183,7 +195,9 @@
  
 - background-position 
    x축 y축 위치 명시
-   
+
+<hr>
+
 ### Transition
   - property
     css 속성 명시(font-size,..etc)
@@ -197,6 +211,8 @@
 
   - [delay]
     transition 지연 설정 
+
+<hr>
 
 ### Animation
   
@@ -214,5 +230,6 @@
  - animation-iteration-count : 반복 횟수
  - animation-direction : 진행 방향 
 
+<hr>
 
    
