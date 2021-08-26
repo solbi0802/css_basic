@@ -12,7 +12,7 @@
 
 - [Position](#position)
 
-- [Flexbox](#flexbox--(정렬))
+- [Flexbox](#flexbox(정렬))
 
 - [Media Query](#media-query)
 
