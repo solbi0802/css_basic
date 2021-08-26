@@ -1,6 +1,29 @@
 # css_basic
-CSS 기초적인 개념들 정리
 
+## CSS 기초적인 개념들 정리
+
+목차
+
+- [Selector]()
+
+- Box
+
+- Float
+
+- Position
+
+- Flexbox
+
+- Media Query
+
+- Typography
+
+- Background
+
+- Transition
+
+- Animation
+-------
 ### Selector
 - 우선순위 : ID > Class(Pseudo-class도 포함) > Type
 
