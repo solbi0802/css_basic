@@ -12,7 +12,7 @@
 
 - [Position](#position)
 
-- [Flexbox](#flexbox)
+- [Flexbox](#flexbox--(정렬))
 
 - [Media Query](#media-query)
 
@@ -82,7 +82,7 @@
 
 ### Flexbox (정렬)
   #### 단계
-  1. Flexbox 선언  (display)
+    1. Flexbox 선언  (display)
   ![image](https://user-images.githubusercontent.com/26318691/126856690-a3cbc903-d11a-4d1c-9406-9df04514a60c.png)
   ![image](https://user-images.githubusercontent.com/26318691/126856713-d0eaedf0-5c75-4118-b87e-8a5b0f297eca.png)
 
@@ -123,7 +123,7 @@
 
 - align-content와 align-items 차이
   align-items : 하나의 flex line에 흐르는 Cross axis를 기준으로 정렬함
-  align-content : 전체 Cross axis를 기준으로 정렬함\
+  align-content : 전체 Cross axis를 기준으로 정렬함
 
 - order 
 원하는 순서대로 정렬
