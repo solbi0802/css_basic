@@ -69,7 +69,8 @@
     ![image](https://user-images.githubusercontent.com/26318691/124337284-b02d9f00-dbdc-11eb-86e5-ad0001534c24.png)
     ![image](https://user-images.githubusercontent.com/26318691/124337377-3a760300-dbdd-11eb-90ba-13c9cf53b52c.png)
 
-### Position (Type에 따른 기준점)
+### Position 
+ : Type에 따른 기준점
 
 - static : 모든 요소의 기본값, 가장 일반적인 상태
 - relative : 이동의 기준점은 자기 자신이 본래 있던 자리, 다른 요소들에게 영향을 끼치지 않음 
