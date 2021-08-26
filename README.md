@@ -2,7 +2,7 @@
 
  CSS 기초적인 개념들 정리
 
-**[참고자료](https://developer.mozilla.org/ko/docs/Web/CSS) **
+[참고자료](https://developer.mozilla.org/ko/docs/Web/CSS) 
 
   목차
 
