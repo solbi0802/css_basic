@@ -2,28 +2,30 @@
 
 ## CSS 기초적인 개념들 정리
 
-목차
+  목차
 
-- [selector] (#selector)
+- [Selector](#selector)
 
-- Box
+- [Box](#box)
 
-- Float
+- [Float](#float)
 
-- Position
+- [Position](#position)
 
-- Flexbox
+- [Flexbox](#flexbox)
 
-- Media Query
+- [Media Query](#media-query)
 
-- Typography
+- [Typography](#typography)
 
-- Background
+- [Background](#background)
 
-- Transition
+- [Transition](#transition)
 
-- Animation
+- [Animation](#animation)
+
 -------
+
 ### Selector
 - 우선순위 : ID > Class(Pseudo-class도 포함) > Type
 
