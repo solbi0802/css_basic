@@ -25,6 +25,7 @@
 - [Transition](#transition)
 
 - [Animation](#animation)
+- [Etc](#Etc)
 
 <hr>
 
@@ -239,4 +240,22 @@
 
 <hr>
 
-   
+### Etc
+ #### Box Shadow 
+ - 요소에 그림자를 줄 때 사용
+ - h-offset(x축) v-offset(y축) blur(흐린정도) spread(그림자 사이즈) color(색상)
+
+ #### Overflow 
+ - 넘쳐흘렸을 때 어떻게 처리할 것인 지 설정
+ - *visible | auto | scroll | hidden
+
+ #### Transform 
+ - translate() | scale() | rotate()
+ - translate : 내가 원하는 방향으로 옮길 때 사용
+ - scale : 사이즈를 키우고 줄이고 할 때 사용
+ - rotate : 어떤 요소의 각도를 돌려줄 때 사용 (deg로 명시)
+
+
+ #### Visibility 
+ - *visible | hidden 
+ - display : none과의 차이점 : display는 아예 존재하지 않는 것처럼 빈 자리를 채움
