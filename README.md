@@ -259,3 +259,8 @@
  #### Visibility 
  - *visible | hidden 
  - display : none과의 차이점 : display는 아예 존재하지 않는 것처럼 빈 자리를 채움
+
+### Grid System
+- container : 그리드 시스템이 적용되는 전체 범위
+- column : 나눠져 있는 칸
+- gutter : 간격조절을 위한 여백 주기
