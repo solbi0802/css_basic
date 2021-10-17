@@ -45,6 +45,82 @@ p {
     letter-spacing: -0.01em;
 }
 
+.top {
+    background-color: #FDDED8;
+    height: 568px;
+}
+
+.text {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 1;
+    text-align: center;
+    margin-bottom: 15px;
+    padding-top: 154px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.bt-text {
+    font-weight: normal;
+    line-height: 1.375;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.apply, .learn {
+    width: 140px;
+    height: 48px;
+    border-radius: 2px;
+    border: none;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.apply {
+    background-color: #3040C4;
+    color:#ffff;
+    margin-left: 15px;
+}
+
+.learn {
+    background-color:#ffff;
+    color: #3040C4;
+    margin-left: 8px;
+}
+
+.top-side {
+    background-color: #F4F5F7;
+    height: 340px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.307692307692308;
+}
+
+.content {
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 1.454545454545455;
+}
+
+.program img {
+    height: 195px;
+}
+
+.curriculum img {
+    height: 450px;
+}
+
+.banner img {
+    height: 300px;
+}
+
 /* 768px 이상 (Desktop) */
 @media screen and (min-width: 768px) {
     /* reset css */
