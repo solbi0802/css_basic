@@ -58,6 +58,7 @@ p {
     line-height: 1.6;
     background-color: #3040C4;
     color:#ffff;
+    transition: opacity 300ms ease-in;
 }
 
 .fill-button.inverted {
@@ -65,11 +66,23 @@ p {
     background-color:#ffff;
 }
 
+.fill-button:hover {
+    opacity: 0.5;
+}
 /* Landing Section */
 
 .landing {
     background-color: #FDDED8;
     text-align: center;
+}
+
+.landing-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
 }
 
 .landing-title {
@@ -79,7 +92,7 @@ p {
     margin-bottom: 24px;
 }
 
-.landing-content {
+.landing-desc {
     font-weight: normal;
     line-height: 1.375;
     margin-bottom: 20px;
@@ -179,11 +192,37 @@ p {
         font-size: 22px;
         line-height: 1.454545454545455;
     }
+    /* Landing*/
+    .landing-title {
+        margin-bottom: 32px;
+        font-size: 70px;
+        line-height: 1.028571428571429;
+    }
+    
+    .landing-desc {
+        margin-bottom: 32px;
+    }
+    
+    .button-group .fill-button{
+        width: 160px;
+        height: 56px;
+        font-size: 18px;
+        line-height: 1.555555555555556;
+    }
+
+    .landing .button-group .fill-button:nth-child(1) {
+        margin-right: 16px;
+    }
+
+    .landing-content {
+        height: auto;
+        padding: 120px;
+    }
 }
 
 /* custom grid system */
 @media screen and (min-width:1200px) {
     .container {
-        max-width: 960px;
+        max-width: 960px !important;
     }
 }
