@@ -2,10 +2,15 @@
     box-sizing: border-box;
     margin: 0;
 }
+html {
+    width: 100%;
+}
 
 body {
     font-family: 'DM Sans', sans-serif;
+    width: 100%;
 }
+
 
 /* reset css */
 a {
@@ -108,70 +113,24 @@ p {
     margin-right: 8px;
 }
 
+/* Service Section */
 
-/* .top {
-    background-color: #FDDED8;
-    height: 568px;
-}
-
-.text {
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 1;
-    text-align: center;
-    margin-bottom: 15px;
-    padding-top: 154px;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-.bt-text {
-    font-weight: normal;
-    line-height: 1.375;
-    text-align: center;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-.apply, .learn {
-    width: 140px;
-    height: 48px;
-    border-radius: 2px;
-    border: none;
-    text-align: center;
-    font-weight: bold;
-    font-size: 15px;
-    line-height: 1.6;
-}
-
-.apply {
-    background-color: #3040C4;
-    color:#ffff;
-    margin-left: 15px;
-}
-
-.learn {
-    background-color:#ffff;
-    color: #3040C4;
-    margin-left: 8px;
-}
-
-.top-side {
+.service {
     background-color: #F4F5F7;
-    height: 340px;
+    padding: 80px;
 }
 
-.title {
-    font-weight: bold;
-    font-size: 26px;
-    line-height: 1.307692307692308;
+.service .col-12:first-child {
+    margin-bottom: 40px;
 }
 
-.content {
-    font-weight: normal;
+.service-title {
     font-size: 22px;
-    line-height: 1.454545454545455;
-} */
+    line-height: 1.363636363636364;
+    letter-spacing: -0.04em;
+    color: #2B292D;
+    margin-bottom: 16px;
+}
 
 .program img {
     height: 195px;
@@ -217,6 +176,24 @@ p {
     .landing-content {
         height: auto;
         padding: 120px;
+    }
+
+    /* Service Section */
+    .service {
+        height: auto;
+        width: 100%;
+    }
+    .service .col-12:first-child {
+        margin-bottom: 0;
+    }
+
+    .service-title {
+        font-size: 26px;
+        line-height: 1.307692307692308;
+    }
+    .service-desc {
+        font-size: 22px;
+        line-height: 1.454545454545455;
     }
 }
 
